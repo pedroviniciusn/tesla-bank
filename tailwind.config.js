@@ -3,6 +3,7 @@ export default {
   content: ["./*.{html,js}"],
   theme: {
     colors: {
+      white: "#FFFFFF",
       brand_color_red: "#EB3850",
       from_gradient_color_red: "#A93E4C",
       to_gradient_color_red: "#EB3850",
