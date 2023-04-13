@@ -1,0 +1,16 @@
+{
+  "name": "teslabank",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start:css": "tailwindcss -i ./main.css -o ./dist/output.css --watch",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.1",
+    "vite": "^4.2.0"
+  }
+}
