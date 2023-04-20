@@ -4,6 +4,7 @@ export default {
   theme: {
     colors: {
       white: "#FFFFFF",
+      background: "#FFF8F9",
       brand_color_red: "#EB3850",
       from_gradient_color_red: "#A93E4C",
       to_gradient_color_red: "#EB3850",
