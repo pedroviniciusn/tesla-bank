@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "start:css": "tailwindcss -i ./main.css -o ./dist/output.css --watch",
-    "preview": "vite preview"
+    "preview": "yarn run build && vite preview"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.1",

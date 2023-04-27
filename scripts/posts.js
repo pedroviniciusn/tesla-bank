@@ -29,7 +29,7 @@ function loadPosts() {
     .map((post) => {
       return `
     <div
-    class="grid grid-cols-1 gap-3 xl:w-80 lg:w-80 md:w-72 sm:w-64 pb-10"
+    class="grid grid-cols-1 gap-5 xl:w-80 lg:w-80 md:w-72 sm:w-64 "
     >
       <img src="${post.img}" alt="${post.alt}" class="w-full" />
       <h2
